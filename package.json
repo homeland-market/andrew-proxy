@@ -1,0 +1,26 @@
+{
+  "name": "fec-main-carousel-proxy",
+  "version": "1.0.0",
+  "description": "Proxy Server for HackReactor Front End Capstone",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unfair-dot-com/fec-main-carousel-proxy.git"
+  },
+  "author": "Andrew Yoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unfair-dot-com/fec-main-carousel-proxy/issues"
+  },
+  "homepage": "https://github.com/Unfair-dot-com/fec-main-carousel-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
