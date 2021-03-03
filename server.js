@@ -20,7 +20,7 @@ app.use('/products/:id', express.static(path.resolve(__dirname, 'public')));
 
 // Image Carousel Service
 app.use('/products/:productid/images/bundle.js', createProxyMiddleware({ target: carouselServiceURL, changeOrigin: true }));
-app.use('/api/hostels/:hostel_id/images', createProxyMiddleware({ target: carouselServiceURL, changeOrigin: true }));
+app.use('/images/:id', createProxyMiddleware({ target: carouselServiceURL, changeOrigin: true }));
 
 app.listen(port, () => {
   console.log(`Home.com has launched on port ${port}`);
