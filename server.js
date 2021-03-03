@@ -1,5 +1,7 @@
 const express = require('express');
 const path = require('path');
+const { createProxyMiddleware } = require('http-proxy-middleware');
+const {carouselServiceURL, descriptionServiceURL, reviewServiceURL} = require('./services_config.js');
 
 const port = '5000';
 
